@@ -1,0 +1,80 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Istok Web', sans-serif;
+    color: rgb(0, 151, 25);
+    background: #000000;
+    margin: 0;
+}
+#container {
+    margin: 2em auto;
+    max-width: 900px;
+    padding: 2rem 4rem;
+    background: rgb(0, 0, 0);
+    overflow: auto;
+}
+h1 {
+    font-family: 'Press Start 2P', serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+p, li {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+.right {
+    float: right;
+    margin: 1.5rem 0 1rem 1rem;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+/* links */
+
+a {
+    color: rgb(36, 82, 100);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0, 195, 255);
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 1000px) {
+    body {
+        background: rgb(109, 107, 107);
+    }
+    #container {
+        margin: 0;
+        width: 100%;
+        padding: 2rem;
+    }
+    h1 {
+        padding: 0 0 0.3rem 0;
+    }
+    .right {
+        float: none;
+        margin: 0;
+    }
+}
+
+a {
+    color: rgb(0, 107, 150);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(16, 77, 95);
+    text-decoration: underline;
+}
